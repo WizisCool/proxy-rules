@@ -22,18 +22,21 @@ jobs:
 
       - name: Compile .json to .srs
         run: |
+          set -x
           for dir in geo/geosite geo/geoip; do
             for file in $dir/*.json; do
               [ -f "$file" ] || continue
               out="${file%.json}.srs"
               sing-box rule-set compile --output "$out" "$file"
+              echo "Compiled $file to $out"
             done
           done
+          ls -l geo/geosite geo/geoip
 
       - name: Commit and push .srs files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add geo/geosite/*.srs geo/geoip/*.srs
+          find geo -type f -name "*.srs" -exec git add {} +
           git diff --cached --quiet || git commit -m "Auto compile .srs from .json"
           git push
