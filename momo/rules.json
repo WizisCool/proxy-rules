@@ -260,10 +260,6 @@
         "outbound": "Google"
       },
       {
-        "rule_set": "geoip-google",
-        "outbound": "Google"
-      },
-      {
         "rule_set": "geosite-speedtest-tools",
         "outbound": "测速工具"
       },
@@ -313,13 +309,6 @@
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geosite/google.srs",
-        "download_detour": "默认节点"
-      },
-      {
-        "tag": "geoip-google",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/google.srs",
         "download_detour": "默认节点"
       },
       {
