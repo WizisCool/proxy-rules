@@ -5,6 +5,7 @@ on:
     paths:
       - 'geo/geosite/*.json'
       - 'geo/geoip/*.json'
+  workflow_dispatch:
 
 jobs:
   compile-srs:
