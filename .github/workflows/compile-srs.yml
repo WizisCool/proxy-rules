@@ -31,7 +31,8 @@ jobs:
               echo "Compiled $file to $out"
             done
           done
-          ls -l geo/geosite geo/geoip
+          ls -l geo/geosite || true
+          ls -l geo/geoip || true
 
       - name: Commit and push .srs files
         run: |
