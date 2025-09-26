@@ -116,7 +116,7 @@
       ]
     },
     {
-      "tag": "Douyin",
+      "tag": "抖音",
       "type": "selector",
       "outbounds": [
         "直连",
@@ -245,7 +245,7 @@
       },
       {
         "rule_set": "geosite-douyin",
-        "outbound": "Douyin"
+        "outbound": "抖音"
       }
     ],
     "rule_set": [
