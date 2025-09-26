@@ -288,7 +288,7 @@
         "tag": "geosite-douyin",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/WizisCool/proxy-rules/refs/heads/main/geo/geosite/douyin.srs",
+        "url": "https://raw.githubusercontent.com/WizisCool/proxy-rules/refs/heads/main/geo/geosite/douyin.json",
         "download_detour": "默认节点"
       }
     ],
