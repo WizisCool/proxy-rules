@@ -17,7 +17,7 @@ jobs:
       - name: Install sing-box
         run: |
           wget https://github.com/SagerNet/sing-box/releases/download/v1.12.8/sing-box-1.12.8-linux-amd64.tar.gz
-          tar -xzf sing-box-linux-amd64.tar.gz
+          tar -xzf sing-box-1.12.8-linux-amd64.tar.gz
           sudo mv sing-box /usr/local/bin/sing-box
 
       - name: Compile .json to .srs
