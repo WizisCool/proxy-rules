@@ -116,6 +116,16 @@
       ]
     },
     {
+      "tag": "speedtest-tools",
+      "type": "selector",
+      "outbounds": [
+        "直连",
+        "HK手动",
+        "SG手动",
+        "REJECT"
+      ]
+    },
+    {
       "tag": "抖音",
       "type": "selector",
       "outbounds": [
@@ -185,6 +195,7 @@
         "OpenAI",
         "Google",
         "Telegram",
+        "测速工具",
         "抖音",
         "HK手动",
         "SG手动",
@@ -253,6 +264,10 @@
         "outbound": "Google"
       },
       {
+        "rule_set": "geosite-speedtest-tools",
+        "outbound": "测速工具"
+      },
+      {
         "rule_set": "geosite-douyin",
         "outbound": "抖音"
       }
@@ -305,6 +320,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/sing/geo/geoip/google.srs",
+        "download_detour": "默认节点"
+      },
+      {
+        "tag": "geosite-speedtest-tools",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/WizisCool/proxy-rules/refs/heads/main/geo/geosite/speedtest-tools.srs",
         "download_detour": "默认节点"
       },
       {
