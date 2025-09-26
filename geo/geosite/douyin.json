@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "amemv.com",
+        "douyincdn.com",
+        "douyinpic.com",
+        "douyinstatic.com",
+        "douyinvod.com",
+        "idouyinvod.com",
+        "ixigua.com",
+        "ixiguavideo.com",
+        "pstatp.com",
+        "snssdk.com",
+        "toutiao.com",
+        "douyin.com"
+      ],
+      "domain": [
+        "aweme.snssdk.com",
+        "awemeapi.snssdk.com",
+        "aweme-hl.snssdk.com",
+        "aweme-lq.snssdk.com",
+        "aweme.snssdk.cn",
+        "aweme.wshifen.com",
+        "api-hl.amemv.com"
+      ]
+    }
+  ]
+}
