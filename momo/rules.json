@@ -116,7 +116,7 @@
       ]
     },
     {
-      "tag": "speedtest-tools",
+      "tag": "测速工具",
       "type": "selector",
       "outbounds": [
         "直连",
