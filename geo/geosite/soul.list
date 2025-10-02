@@ -1,6 +1,16 @@
 # === SoulApp 域名后缀匹配 ===
 DOMAIN-SUFFIX,soulapp.cn
 DOMAIN-SUFFIX,soulapp.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,ctobsnssdk.com
+DOMAIN-SUFFIX,oceanengine.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,queniuuf.com
+DOMAIN-SUFFIX,queniuyk.com
+DOMAIN-SUFFIX,bytodns1.com
+DOMAIN-SUFFIX,alibabadns.com
+DOMAIN-SUFFIX,fengkongcloud.com
+
 
 # === 关键字匹配 ===
 DOMAIN-KEYWORD,soulapp
