@@ -1,0 +1,19 @@
+# === SoulApp 域名后缀匹配 ===
+DOMAIN-SUFFIX,neoclub.cn
+DOMAIN-SUFFIX,swxcjgg.cn
+DOMAIN-SUFFIX,getui.net
+DOMAIN-SUFFIX,adukwai.com
+DOMAIN-SUFFIX,chenlongtech.cn
+DOMAIN-SUFFIX,gepush.com
+DOMAIN-SUFFIX,queniuuf.com
+DOMAIN-SUFFIX,queniuyk.com
+DOMAIN-SUFFIX,bytodns1.com
+DOMAIN-SUFFIX,alibabadns.com
+DOMAIN-SUFFIX,fengkongcloud.com
+
+
+# === 精准域名匹配 ===
+DOMAIN,uki-system.oss-cn-hangzhou.aliyuncs.com
+
+# 关键字匹配
+DOMAIN-KEYWORD,uki
