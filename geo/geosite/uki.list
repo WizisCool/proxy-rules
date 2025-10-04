@@ -1,19 +1,21 @@
-# === SoulApp 域名后缀匹配 ===
-DOMAIN-SUFFIX,neoclub.cn
-DOMAIN-SUFFIX,swxcjgg.cn
-DOMAIN-SUFFIX,getui.net
-DOMAIN-SUFFIX,adukwai.com
-DOMAIN-SUFFIX,chenlongtech.cn
-DOMAIN-SUFFIX,gepush.com
-DOMAIN-SUFFIX,queniuuf.com
-DOMAIN-SUFFIX,queniuyk.com
-DOMAIN-SUFFIX,bytodns1.com
-DOMAIN-SUFFIX,alibabadns.com
-DOMAIN-SUFFIX,fengkongcloud.com
+# Uki App rules for Sing-box
+# Converted from Clash format
 
+# === 域名后缀匹配 ===
+domain_suffix: neoclub.cn
+domain_suffix: swxcjgg.cn
+domain_suffix: getui.net
+domain_suffix: adukwai.com
+domain_suffix: chenlongtech.cn
+domain_suffix: gepush.com
+domain_suffix: queniuuf.com
+domain_suffix: queniuyk.com
+domain_suffix: bytodns1.com
+domain_suffix: alibabadns.com
+domain_suffix: fengkongcloud.com
 
-# === 精准域名匹配 ===
-DOMAIN,uki-system.oss-cn-hangzhou.aliyuncs.com
+# === 精确域名匹配 ===
+domain: uki-system.oss-cn-hangzhou.aliyuncs.com
 
-# 关键字匹配
-DOMAIN-KEYWORD,uki
+# === 关键词匹配 ===
+domain_keyword: uki
